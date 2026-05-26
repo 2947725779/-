@@ -1,4 +1,4 @@
-name: -
+name: 微信
 on:
   workflow_dispatch:
   schedule: 
@@ -20,6 +20,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip3 install -r requirements.txt
-      - name: -
+      - name: 微信
         run: |
           python3 main.py
